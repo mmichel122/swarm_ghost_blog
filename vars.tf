@@ -3,6 +3,11 @@ variable "mysql_root_password" {
   default     = "Vi@stak123!"
 }
 
+variable "blog_url" {
+  description = "enter the the DNS\URL of your blog"
+  default     = "3.9.165.193"
+}
+
 variable "ghost_db_username" {
   description = "Ghost blog database username."
   default     = "root"

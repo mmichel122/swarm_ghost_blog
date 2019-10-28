@@ -11,6 +11,7 @@ resource "docker_service" "ghost-service" {
         database__connection__user     = "${var.ghost_db_username}"
         database__connection__password = "${var.mysql_root_password}"
         database__connection__database = "${var.ghost_db_name}"
+        url                            = "http://${var.blog_url}:${var.ext_port}"
       }
     }
     networks = [
