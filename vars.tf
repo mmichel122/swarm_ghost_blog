@@ -1,6 +1,6 @@
 variable "mysql_root_password" {
   description = "The MySQL root password."
-  default     = "Vi@stak123!"
+  default     = "123456"
 }
 
 variable "blog_url" {
