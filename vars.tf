@@ -4,7 +4,7 @@ variable "mysql_root_password" {
 }
 
 variable "blog_url" {
-  description = "enter the the DNS\URL of your blog"
+  description = "enter the the URL of your blog"
   default     = "3.9.165.193"
 }
 
